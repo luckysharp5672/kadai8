@@ -24,7 +24,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
                 margin-bottom: 10px;
             }
     </style>
-    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=loadMapScenario&key=API KEY' async defer></script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=loadMapScenario&key=ApUslpO8ghJ6mpe35ApW427eo72OmGGHg9ETniAK37AnLv7g6GzjaiEkrMB1cowL' async defer></script>
 
 </head>
 <body>
@@ -48,7 +48,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
                 <p>経度: <?php echo $message['longitude']; ?></p>
                 <p>
                     <?php $boardId = $message['id']; ?>
-                    <a href="<?php echo 'chat_' . $boardId . '.html'; ?>">チャットを開く</a>
+                    <a href="<?php echo 'chat_' . $boardId . '.html'; ?>">掲示板を開く</a>
                 </p>
             </div>
         <?php } ?>

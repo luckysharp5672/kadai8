@@ -114,5 +114,8 @@ document.getElementById('postButton').addEventListener('click', function() {
         var messages = document.getElementById('messages');
         messages.appendChild(messageItem);
 
+        // 新しいHTMLに遷移する
+        window.location.href = result;
+
     });
 });
